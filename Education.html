@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-style-mode" content="1"> <!-- 0 == light, 1 == dark -->
+
+    <title>Blog Grid || Doob Business and Consulting Bootstrap5 Template</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <!-- CSS ============================================ -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/animation.css">
+    <link rel="stylesheet" href="assets/css/plugins/feature.css">
+    <link rel="stylesheet" href="assets/css/plugins/magnify.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/slick.css">
+    <link rel="stylesheet" href="assets/css/plugins/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/plugins/lightbox.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+<script>
+    var wa_btnSetting = { "btnColor": "#16BE45", "ctaText": "", "cornerRadius": 40, "marginBottom": 100, "marginLeft": 20, "marginRight": 30, "btnPosition": "right", "whatsAppNumber": "919000012345", "welcomeMessage": "WELLCOME TO GLOBAL LINK GROUP", "zIndex": 999999, "btnColorScheme": "light" };
+    window.onload = () => {
+        _waEmbed(wa_btnSetting);
+    };
+
+    function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+</script>
+
+<body class="active-light-mode">
+    <!-- Start Main Wrapper  -->
+
+    <main class="page-wrapper">
+
+        <header class="rainbow-header header-default  header-left-align header-not-transparent header-sticky">
+            <div class="container position-relative">
+                <div class="row align-items-center">
+                    <div class="col-lg-9 col-md-6 col-4 position-static">
+                        <div class="header-left d-flex">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img class="logo-light" src="assets/images/logo/logooo.png" alt="Corporate Logo">
+                                    <img class="logo-dark" src="assets/images/logo/logooo.png" alt="Corporate Logo">
+                                </a>
+                            </div>
+                            <nav class="mainmenu-nav manumy d-none d-lg-block ms-auto">
+                                <ul class="mainmenu mx-auto mt--20">
+                                    <li class="with-megamenu  has-menu-child-item position-relative"><a
+                                            href="Education.html">Home</a>
+                                        <div class="rainbow-megamenu with-mega-item-2">
+                                            <div class="wrapper">
+                                                <div class="row row--0">
+                                                    <div class="col-lg-6 single-mega-item">
+                                                        <ul class="mega-menu-item">
+                                                            <li><a href="index-landing.html">Sass Landing <span
+                                                                        class="rainbow-badge-card">New</span></a></li>
+                                                            <li><a href="index-application.html">Application <span
+                                                                        class="rainbow-badge-card">New</span></a></li>
+                                                            <li><a href="index-collaborate.html">Collaborate <span
+                                                                        class="rainbow-badge-card">New</span></a></li>
+                                                            <li><a href="index-business-consulting.html">Business
+                                                                    Consulting</a></li>
+                                                            <li><a href="index-business-consulting-2.html">Business
+                                                                    Consulting 02</a></li>
+                                                            <li><a href="index-magazine.html">Magazine <span
+                                                                        class="rainbow-badge-card">New</span></a></li>
+                                                            <li><a href="index-corporate.html">Corporate</a></li>
+                                                            <li><a href="index-business.html">Business</a></li>
+                                                            <li><a href="index-digital-agency.html">Digital Agency</a>
+                                                            </li>
+                                                            <li><a href="index-finance.html">Finance</a></li>
+                                                            <li><a href="index-company.html">Company</a></li>
+                                                            <li><a href="index-marketing-agency.html">Marketing
+                                                                    Agency</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-6 single-mega-item">
+                                                        <ul class="mega-menu-item">
+                                                            <li><a href="index-travel-agency.html">Travel Agency</a>
+                                                            </li>
+                                                            <li><a href="index-consulting.html">Consulting</a></li>
+                                                            <li><a href="index-seo-agency.html">SEO Agency</a></li>
+                                                            <li><a href="index-personal-portfolio.html">Personal
+                                                                    Portfolio</a></li>
+                                                            <li><a href="index-event-conference.html">Event
+                                                                    Conference</a></li>
+                                                            <li><a href="index-creative-portfolio.html">Creative
+                                                                    Portfolio</a></li>
+                                                            <li><a href="index-freelancer.html">Freelancer</a></li>
+                                                            <li><a href="index-international-consulting.html">International
+                                                                    Consulting</a></li>
+                                                            <li><a href="index-startup.html">Startup</a></li>
+                                                            <li><a href="index-web-agency.html">Web Agency</a></li>
+                                                            <li><a href="index-corporate-one-page.html">Corporate One
+                                                                    Page <span class="rainbow-badge-card">New</span></a>
+                                                            </li>
+                                                            <li><a href="index-photographer.html">Photographer <span
+                                                                        class="rainbow-badge-card">New</span></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><a href="univer.html">Universities</a></li>
+
+                                    <li class="with-megamenu has-menu-child-item"><a href="programs.html">Programs</a>
+                                        <div class="rainbow-megamenu">
+                                            <div class="wrapper">
+                                                <div class="row row--0">
+                                                    <div class="col-lg-3  single-mega-item">
+                                                        <ul class="mega-menu-item">
+                                                            <li><a href="button.html">Button</a></li>
+                                                            <li><a href="service.html">Service</a></li>
+                                                            <li><a href="counter.html">Counter</a></li>
+                                                            <li><a href="progressbar.html">Progressbar</a></li>
+                                                            <li><a href="accordion.html">Accordion</a></li>
+                                                            <li><a href="social-share.html">Social Share</a></li>
+                                                            <li><a href="blog-grid.html">Blog Grid</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-3  single-mega-item">
+                                                        <ul class="mega-menu-item">
+                                                            <li><a href="team.html">Team</a></li>
+                                                            <li><a href="portfolio.html">Portfolio</a></li>
+                                                            <li><a href="testimonial.html">Testimonial</a></li>
+                                                            <li><a href="timeline.html">Timeline</a></li>
+                                                            <li><a href="tab.html">Tab</a></li>
+                                                            <li><a href="pricing.html">Pricing</a></li>
+                                                            <li><a href="split.html">Split Section</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-3  single-mega-item">
+                                                        <ul class="mega-menu-item">
+                                                            <li><a href="call-to-action.html">Call To Action</a></li>
+                                                            <li><a href="video.html">Video</a></li>
+                                                            <li><a href="gallery.html">Gallery</a></li>
+                                                            <li><a href="contact.html">Contact</a></li>
+                                                            <li><a href="brand.html">Brand</a></li>
+                                                            <li><a href="portfolio.html">Portfolio</a></li>
+                                                            <li><a href="error.html">404</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-3  single-mega-item">
+                                                        <ul class="mega-menu-item">
+                                                            <li><a href="advance-tab.html">Advance Tab <span
+                                                                        class="rainbow-badge-card">Hot</span></a></li>
+                                                            <li><a href="brand-carouse.html">Brand Carousel <span
+                                                                        class="rainbow-badge-card">New</span></a></li>
+                                                            <li><a href="advance-pricing.html">Advance Pricing <span
+                                                                        class="rainbow-badge-card">Hot</span></a></li>
+                                                            <li><a href="portfolio-details.html">Portfolio Details</a>
+                                                            </li>
+                                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                                            <li><a href="privacy-policy.html">Privacy Policy <span
+                                                                        class="rainbow-badge-card">New</span></a></li>
+                                                            <li><a href="login.html">Profile <span
+                                                                        class="rainbow-badge-card">New</span></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li><a href="blog.html">Study in Türkiye</a></li>
+
+                                    <li class="has-droupdown has-menu-child-item"><a href="ApplicatiionForm.html">Apply
+                                            Now</a>
+                                        <ul class="submenu">
+                                            <li><a href="portfolio.html">Portfolio Default</a></li>
+                                            <li><a href="portfolio-three-column.html">Portfolio Three Column</a></li>
+                                            <li><a href="portfolio-full-width.html">Portfolio Full Width</a></li>
+                                            <li><a href="portfolio-grid-layout.html">Portfolio Grid Layout</a></li>
+                                            <li><a href="portfolio-box-layout.html">Portfolio Box Layout</a></li>
+                                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contactusedu.html">Contact Us</a></li>
+                                </ul>
+
+
+
+
+
+
+
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-md-6 col-8">
+                        <div class="header-right">
+                            <div class="header-btn">
+                                <a class="btn-default btn-small round" target="_blank"
+                                    href="https://themeforest.net/checkout/from_item/34133466?license=regular">0090 552
+                                    56 54 167</a>
+                            </div>
+
+                            <!-- Start Mobile-Menu-Bar -->
+                            <div class="mobile-menu-bar ml--5 d-block d-lg-none">
+                                <div class="hamberger">
+                                    <button class="hamberger-button">
+                                        <i class="feather-menu"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- Start Mobile-Menu-Bar -->
+
+                            <!-- Start Switcher Area  -->
+                            <div class="my_switcherr btn-light">
+                                <ul>
+                                    <a href="#" class="text-dark rounded">Eng</a>
+                                </ul>
+                            </div>
+                            <!-- Start Switcher Area  -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="popup-mobile-menu">
+            <div class="inner">
+                <div class="header-top">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img class="logo-light" src="assets/images/logo/logo.png" alt="Corporate Logo">
+                            <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
+                        </a>
+                    </div>
+                    <div class="close-menu">
+                        <button class="close-button">
+                            <i class="feather-x"></i>
+                        </button>
+                    </div>
+                </div>
+                <ul class="mainmenu">
+                    <li class="with-megamenu has-menu-child-item position-relative"><a href="Education.html">Home</a>
+                        <div class="rainbow-megamenu with-mega-item-2">
+                            <div class="wrapper">
+                                <div class="row row--0">
+                                    <div class="col-lg-6 single-mega-item">
+                                        <ul class="mega-menu-item">
+                                            <li><a href="index-landing.html">Sass Landing <span
+                                                        class="rainbow-badge-card">New</span></a></li>
+                                            <li><a href="index-application.html">Application <span
+                                                        class="rainbow-badge-card">New</span></a></li>
+                                            <li><a href="index-collaborate.html">Collaborate <span
+                                                        class="rainbow-badge-card">New</span></a></li>
+                                            <li><a href="index-business-consulting.html">Business Consulting</a></li>
+                                            <li><a href="index-business-consulting-2.html">Business Consulting 02</a>
+                                            </li>
+                                            <li><a href="index-magazine.html">Magazine <span
+                                                        class="rainbow-badge-card">New</span></a></li>
+                                            <li><a href="index-corporate.html">Corporate</a></li>
+                                            <li><a href="index-business.html">Business</a></li>
+                                            <li><a href="index-digital-agency.html">Digital Agency</a></li>
+                                            <li><a href="index-finance.html">Finance</a></li>
+                                            <li><a href="index-company.html">Company</a></li>
+                                            <li><a href="index-marketing-agency.html">Marketing Agency</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 single-mega-item">
+                                        <ul class="mega-menu-item">
+                                            <li><a href="index-travel-agency.html">Travel Agency</a></li>
+                                            <li><a href="index-consulting.html">Consulting</a></li>
+                                            <li><a href="index-seo-agency.html">SEO Agency</a></li>
+                                            <li><a href="index-personal-portfolio.html">Personal Portfolio</a></li>
+                                            <li><a href="index-event-conference.html">Event Conference</a></li>
+                                            <li><a href="index-creative-portfolio.html">Creative Portfolio</a></li>
+                                            <li><a href="index-freelancer.html">Freelancer</a></li>
+                                            <li><a href="index-international-consulting.html">International
+                                                    Consulting</a></li>
+                                            <li><a href="index-startup.html">Startup</a></li>
+                                            <li><a href="index-web-agency.html">Web Agency</a></li>
+                                            <li><a href="index-corporate-one-page.html">Corporate One Page <span
+                                                        class="rainbow-badge-card">New</span></a></li>
+                                            <li><a href="index-photographer.html">Photographer <span
+                                                        class="rainbow-badge-card">New</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="with-megamenu has-menu-child-item"><a href="#">Elements</a>
+                        <div class="rainbow-megamenu">
+                            <div class="wrapper">
+                                <div class="row row--0">
+                                    <div class="col-lg-3   single-mega-item">
+                                        <ul class="mega-menu-item">
+                                            <li><a href="button.html">Button</a></li>
+                                            <li><a href="service.html">Service</a></li>
+                                            <li><a href="counter.html">Counter</a></li>
+                                            <li><a href="progressbar.html">Progressbar</a></li>
+                                            <li><a href="accordion.html">Accordion</a></li>
+                                            <li><a href="social-share.html">Social Share</a></li>
+                                            <li><a href="blog-grid.html">Blog Grid</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3  single-mega-item">
+                                        <ul class="mega-menu-item">
+                                            <li><a href="team.html">Team</a></li>
+                                            <li><a href="portfolio.html">Portfolio</a></li>
+                                            <li><a href="testimonial.html">Testimonial</a></li>
+                                            <li><a href="timeline.html">Timeline</a></li>
+                                            <li><a href="tab.html">Tab</a></li>
+                                            <li><a href="pricing.html">Pricing</a></li>
+                                            <li><a href="split.html">Split Section</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3  single-mega-item">
+                                        <ul class="mega-menu-item">
+                                            <li><a href="call-to-action.html">Call To Action</a></li>
+                                            <li><a href="video.html">Video</a></li>
+                                            <li><a href="gallery.html">Gallery</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="brand.html">Brand</a></li>
+                                            <li><a href="portfolio.html">Portfolio</a></li>
+                                            <li><a href="error.html">404</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3  single-mega-item">
+                                        <ul class="mega-menu-item">
+                                            <li><a href="advance-tab.html">Advance Tab <span
+                                                        class="rainbow-badge-card">Hot</span></a></li>
+                                            <li><a href="brand-carouse.html">Brand Carousel <span
+                                                        class="rainbow-badge-card">New</span></a></li>
+                                            <li><a href="advance-pricing.html">Advance Pricing <span
+                                                        class="rainbow-badge-card">Hot</span></a></li>
+                                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="privacy-policy.html">Privacy Policy <span
+                                                        class="rainbow-badge-card">New</span></a></li>
+                                            <li><a href="login.html">Profile <span
+                                                        class="rainbow-badge-card">New</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="has-droupdown has-menu-child-item"><a href="#">Blog</a>
+                        <ul class="submenu">
+                            <li><a href="blog-grid.html">Blog Grid</a></li>
+                            <li><a href="blog-grid-sidebar.html">Blog Grid Sidebar</a></li>
+                            <li><a href="blog-list-view.html">Blog List View</a></li>
+                            <li><a href="blog-list-sidebar.html">Blog List View Sidebar</a></li>
+                            <li><a href="blog-details.html">Blog Details</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="has-droupdown has-menu-child-item"><a href="#">Portfolio</a>
+                        <ul class="submenu">
+                            <li><a href="portfolio.html">Portfolio Default</a></li>
+                            <li><a href="portfolio-three-column.html">Portfolio Three Column</a></li>
+                            <li><a href="portfolio-full-width.html">Portfolio Full Width</a></li>
+                            <li><a href="portfolio-grid-layout.html">Portfolio Grid Layout</a></li>
+                            <li><a href="portfolio-box-layout.html">Portfolio Box Layout</a></li>
+                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Start Slider Area  -->
+        <div
+            class=" slider-area slider-style-2 variation-3 height-500 slider-bg-image bg_image bg_image--26 bg_image_fixed theme-shape">
+            <div class="container">
+                <div class="row d-flex">
+
+                    <div class="col-lg-7 ">
+                        <h1 class="title text-light">Bridging the Future</h1>
+                        <span class="header-caption">
+                            <span class="cd-headline clip is-full-width " style="font-size: 25px !important;">
+                                <span class="cd-words-wrapper">
+                                    <b class="is-visible text-light">MEDICINE</b>
+                                    <b class="is-hidden text-light">DENTISTRY</b>
+                                    <b class="is-hidden text-light">PHARMACY</b>
+                                    <b class="is-hidden text-light">ENGINEERING</b>
+                                    <b class="is-hidden text-light">ECONOMICS</b>
+                                    <b class="is-hidden text-light">LITERATURE</b>
+                                    <b class="is-hidden text-light">CYBERSECURITY</b>
+                                    <b class="is-hidden text-light">INFORMATION TECHNOLOGY</b>
+                                    <b class="is-hidden text-light">COMPUTER SCIENCE</b>
+                                    <b class="is-hidden text-light">TEACHING</b>
+                                </span>
+                            </span>
+                        </span>
+                        <div class="button-group mt--20">
+                            <a class="btn-default" href="contactuss.html">Apply Now
+                                <i class="feather-arrow-right"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <!-- End Slider Area  -->
+        <!-- Start Seperator Area  -->
+        <div class="rbt-separator-mid">
+            <div class="container">
+                <hr class="rbt-separator m-0">
+            </div>
+        </div>
+        <!-- End Seperator Area  -->
+
+        <!-- Start Rn Blog Area  -->
+        <div class="main-content rainbow-section-gap">
+            <div class="rainbow-blog-area ">
+                <div class="container">
+                    <div class="row mt_dec--30 d-flex">
+                        <div class="col-lg-4 text-center bg-secondary p-5">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                    class="bi bi-emoji-smile mb-3 text-light" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path
+                                        d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z" />
+                                </svg>
+                                <h5 class="mb-3 text-light">Free Services
+                                </h5>
+                                <p class="text-light">We will not charge students for our special services. Students
+                                    will pay only
+                                    Universities tutoring fees. All MEDU services are free.</p>
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 text-center bg-light p-5">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                    class="bi bi-person mb-3 text-dark" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                                </svg>
+                                <h5 class="mb-3 text-dark">Experienced advisers and counselors
+
+                                </h5>
+                                <p class="text-dark">We have experienced advisers that will guide students with
+                                    university applications
+                                    and options and ready to answer all their questions</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 text-center  bg-primary p-5">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                    class="bi bi-heart mb-3 text-light" viewBox="0 0 16 16">
+                                    <path
+                                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                </svg>
+                                <h5 class="mb-3 text-light">We do our job with Love
+
+                                </h5>
+                                <p class="text-light">MEDU team is always with you. You will have a great team who work
+                                    with love. We
+                                    always say, for the love of education !</p>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Rn Blog Area  -->
+        <!-- Start Seperator Area  -->
+        <div class="rbt-separator-mid">
+            <div class="container">
+                <hr class="rbt-separator m-0">
+            </div>
+        </div>
+        <!-- End Seperator Area  -->
+        <!-- Start Seperator Area  -->
+        <div class="rbt-separator-mid">
+            <div class="container">
+                <hr class="rbt-separator m-0">
+            </div>
+        </div>
+        <!-- End Seperator Area  -->
+        <!-- Start Rn Blog Area  -->
+        <div class="main-content rainbow-section-gap">
+            <div class="rainbow-blog-area  mt--40">
+                <div class="container">
+                    <div class="text-center justify content center mb--50">
+                        <h3>GLOBAL LINK GROUP WITH DIGITS</h3>
+                        <P>We conncet you with the best univesities of Turkiye</P>
+                    </div>
+                    <div class="row mt_dec--30">
+                        <div class="col-lg-7 reveal fade-left justify-content-center">
+                            <div class="d-flex mb--">
+                                <div class="col-4 me-5">
+                                    <div class="text-center">
+                                        <div class=" mb-2 ">
+
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"
+                                                fill="currentColor" class="hovi bi bi-mortarboard" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z" />
+                                                <path
+                                                    d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z" />
+                                            </svg>
+
+                                        </div>
+                                        <p>95%</p>
+                                        <p>The chance of getting addmision <br> with Global Link Group <br>is 95%</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 ms-5">
+                                    <div class="text-center">
+                                        <div class=" mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"
+                                                fill="currentColor" class="hovi bi bi-mortarboard" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z" />
+                                                <path
+                                                    d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z" />
+                                            </svg>
+                                        </div>
+                                        <p>+1000</p>
+                                        <p>1000 + International students gets admissions through Global Link Group</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="col-4 me-5">
+                                    <div class="text-center">
+                                        <div class=" mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"
+                                                fill="currentColor" class="hovi bi bi-mortarboard" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z" />
+                                                <path
+                                                    d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z" />
+                                            </svg>
+                                        </div>
+                                        <p>+7 years Experience</p>
+                                        <p>We are providing our services since 2015</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 ms-5">
+                                    <div class="text-center">
+                                        <div class=" mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"
+                                                fill="currentColor" class="hovi bi bi-mortarboard" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z" />
+                                                <path
+                                                    d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z" />
+                                            </svg>
+                                        </div>
+                                        <p>20 +</p>
+                                        <p>Since 2015 we give our services to the students from 20 + different countries
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 reveal fade-right">
+                            <img src="assets/images/bg/Animi/num.jpg" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Rn Blog Area  -->
+        <!-- Start Seperator Area  -->
+        <div class="rbt-separator-mid">
+            <div class="container">
+                <hr class="rbt-separator m-0">
+            </div>
+        </div>
+        <!-- End Seperator Area  -->
+        <!-- Start Seperator Area  -->
+        <div class="rbt-separator-mid">
+            <div class="container">
+                <hr class="rbt-separator m-0">
+            </div>
+        </div>
+        <!-- End Seperator Area  -->
+        <!-- Start Rn Blog Area  -->
+        <div class="main-content rainbow-section-gap">
+            <div class="rainbow-blog-area ">
+                <div class="container">
+                    <div class="row mt_dec--30 d-flex">
+                        <div class="col-lg-7 reveal fade-left">
+                            <div>
+                                <h1>Why Global Link Group</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum inventore maxime
+                                    labore fuga! Pariatur distinctio quibusdam iure odio repudiandae eos, laboriosam
+                                    dicta veniam explicabo doloremque, nostrum dolorem iste? Quae, debitis!</p>
+                                <div class="button-group mt--20">
+                                    <a class="btn-default" href="Aboutuss.html">Read more
+                                        <i class="feather-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-5 reveal fade-right">
+                            <img src="assets/images/bg/1.jpg" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Rn Blog Area  -->
+        <!-- Start Seperator Area  -->
+        <div class="rbt-separator-mid">
+            <div class="container">
+                <hr class="rbt-separator m-0">
+            </div>
+        </div>
+        <!-- End Seperator Area  -->
+        <!-- Start Seperator Area  -->
+        <div class="rbt-separator-mid">
+            <div class="container">
+                <hr class="rbt-separator m-0">
+            </div>
+        </div>
+        <!-- End Seperator Area  -->
+        <!-- Start Rn Blog Area  -->
+        <div class="main-content rainbow-section-gap">
+            <div class="rainbow-blog-area ">
+                <div class="container">
+                    <div class="row mt_dec--30 d-flex">
+                        <div class="col-lg-7 reveal fade-left">
+                            <div>
+                                <h1>Why Study in Türkiye</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum inventore maxime
+                                    labore fuga! Pariatur distinctio quibusdam iure odio repudiandae eos, laboriosam
+                                    dicta veniam explicabo doloremque, nostrum dolorem iste? Quae, debitis!</p>
+                                <div class="button-group mt--20">
+                                    <a class="btn-default" href="whyturkey.html">Read more
+                                        <i class="feather-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-5 reveal fade-right">
+                            <img src="assets/images/bg/Animi/whyTur.jpeg" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Rn Blog Area  -->
+        
+        <!-- Start Footer Area  -->
+        <!-- Start Footer Area  -->
+        <footer class="rainbow-footer footer-style-default variation-two">
+            <div class="rainbow-callto-action clltoaction-style-default style-7">
+                <div class="container">
+                    <div class="row row--0 align-items-center content-wrapper">
+                        <div class="col-lg-8 col-md-8">
+                            <div class="inner">
+                                <div class="content text-left">
+                                    <div class="logo">
+                                        <a href="index.html">
+                                            <img class="logo-light" src="assets/images/logo/logoAndText.png"
+                                                alt="Corporate Logo">
+                                            <img class="logo-dark" src="assets/images/logo/logoAndText.png"
+                                                alt="Corporate Logo">
+                                        </a>
+                                    </div>
+                                    <p class="subtitle" data-sal="slide-up" data-sal-duration="400"
+                                        data-sal-delay="150">We are porviding our services in Education consultancy,
+                                        Medical tourism and IT industry. It will be honur for us to solve your problems
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4" data-sal="slide-up" data-sal-duration="400" data-sal-delay="150">
+                            <div class="call-to-btn text-left mt_sm--20 text-lg-right">
+                                <a class="btn-default" href="contactuss.html">Contact Us
+                                    <i class="feather-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <h4 class="title">Services</h4>
+                                <div class="inner">
+                                    <ul class="footer-link link-hover">
+                                        <li><a href="Education.html">Education Consultancy</a></li>
+                                        <li><a href="ourservice.html">Medical Tourism</a></li>
+                                        <li><a href="ourservice.html">IT industry</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <div class="widget-menu-top">
+                                    <h4 class="title">Solutions</h4>
+                                    <div class="inner">
+                                        <ul class="footer-link link-hover">
+                                            <li><a href="univer.html">University Admissions</a></li>
+                                            <li><a href="ourservice.html">Hair Transpalt</a></li>
+                                            <li><a href="ourservice.html">Obesity Surgery</a></li>
+                                            <li><a href="ourservice.html">Plastic Surgery</a></li>
+                                            <li><a href="ourservice.html">Web development</a></li>
+                                            <li><a href="ourservice.html">Application development</a></li>
+                                            <li><a href="ourservice.html">Automation</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <h4 class="title">About Us</h4>
+                                <div class="inner">
+                                    <ul class="footer-link link-hover">
+                                        <li><a href="Aboutuss.html">Our Team</a></li>
+                                        <li><a href="whyturkey.html">Blogs</a></li>
+                                        <li><a href="Aboutuss.html">Social Media</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <h4 class="title">Resources</h4>
+                                <div class="inner">
+                                    <ul class="footer-link link-hover">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="Aboutuss.html">About Us</a></li>
+                                        <li><a href="ourservice.html">Our Services</a></li>
+                                        <li><a href="whyturkey.html">Why Turkey</a></li>
+                                        <li><a href="univer.html">Universities</a></li>
+                                        <li><a href="contactuss.html">Contact us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <h4 class="title">Stay With Us</h4>
+                                <div class="inner">
+                                    <h6 class="subtitle">2000+ Our clients are subscribe Around the World</h6>
+                                    <ul class="social-icon social-default justify-content-start">
+                                        <li><a href="https://www.facebook.com/globallink.af">
+                                                <i class="feather-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://twitter.com/Globallinkgroup">
+                                                <i class="feather-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.instagram.com/globallink_af/">
+                                                <i class="feather-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.linkedin.com/company/global-link-group-tr/about/">
+                                                <i class="feather-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer Area  -->
+        <!-- Start Copy Right Area  -->
+        <div class="copyright-area copyright-style-one">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-8 col-sm-12 col-12">
+                        <div class="copyright-left">
+                            <ul class="ft-menu link-hover">
+                                <li>
+                                    <a href="#">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terms And Condition</a>
+                                </li>
+                                <li>
+                                    <a href="contactuss.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-4 col-sm-12 col-12">
+                        <div class="copyright-right text-center text-lg-end">
+                            <p class="copyright-text">© Global link group 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Copy Right Area  -->
+
+    </main>
+    <!-- Start Main Wrapper  -->
+
+
+
+
+    <!-- All Scripts  -->
+    <!-- Start Top To Bottom Area  -->
+    <div class="rainbow-back-top bg-secondary ">
+        <i class="feather-arrow-up text-light"></i>
+    </div>
+    <!-- End Top To Bottom Area  -->
+    <!-- JS
+============================================ -->
+    <script src="assets/js/vendor/modernizr.min.js"></script>
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/vendor/waypoint.min.js"></script>
+    <script src="assets/js/vendor/wow.min.js"></script>
+    <script src="assets/js/vendor/counterup.min.js"></script>
+    <script src="assets/js/vendor/feather.min.js"></script>
+    <script src="assets/js/vendor/sal.min.js"></script>
+    <script src="assets/js/vendor/masonry.js"></script>
+    <script src="assets/js/vendor/imaoaded.js"></script>
+    <script src="assets/js/vendor/magnify.min.js"></script>
+    <script src="assets/js/vendor/lightbox.js"></script>
+    <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/vendor/easypie.js"></script>
+    <script src="assets/js/vendor/text-type.js"></script>
+    <script src="assets/js/vendor/jquery.style.swicher.js"></script>
+    <script src="assets/js/vendor/js.cookie.js"></script>
+    <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
